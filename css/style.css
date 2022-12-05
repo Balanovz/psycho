@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Marck+Script&family=Montserrat+Alternates:wght@600&display=swap');
 html, body
 {
     margin: 0;
-
+    font-family: 'Caveat', cursive;
+    font-size:24px;
+    font-weight: 600px;;
+    background-image: url(/img/oldbackgr.jpg);
 }
 
 .tab {
@@ -13,8 +17,8 @@ html, body
     display: flex;
     text-align: center;
     justify-content: center;
-    border: 1px solid red;
     flex-wrap: wrap;
+    font-weight: bold;
 }
 
 .main-info
@@ -23,7 +27,6 @@ html, body
     flex-direction: column;
     justify-content: flex-end;
     padding-left: 20px;
-    border: 1px solid blue;
 }
 
 .block-info
@@ -34,7 +37,6 @@ html, body
 
 .schedule
 {
-    border: 1px solid green;
     padding: 0 20px;
 }
 
@@ -48,6 +50,7 @@ html, body
 display: flex;
 justify-content: center;
 align-items: center;
+padding-bottom: 20px;
 }
 
 .callback-info
@@ -56,14 +59,13 @@ align-items: center;
 	user-select: none; /* Убираем текстовое выделение */
 	text-decoration: none;	/* Убираем подчеркивание */
 	outline: none; /* Убираем контур вокруг ссылки */
-	background-color: #fa8e47; /* Цвет фона */
-	padding: 1em 2em; /* Отступ от текста до рамки */
+	background-color: #636363; /* Цвет фона */
+    opacity: 0.7;
+    padding: 1em 2em; /* Отступ от текста до рамки */
     border-radius:0.7em;
 	}
-	a:active {
-	background-color: #ee6206; /* Цвет кнопки при нажатии */
-	}
+
 	a:hover {
-	background-color: #f97f2e; /* Цвет кнопки при наведении курсора */
+	background-color: #000; /* Цвет кнопки при наведении курсора */
 
 }
