@@ -1,0 +1,69 @@
+html, body
+{
+    margin: 0;
+
+}
+
+.tab {
+    tab-size: 4;
+}
+
+.top
+{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    border: 1px solid red;
+    flex-wrap: wrap;
+}
+
+.main-info
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-left: 20px;
+    border: 1px solid blue;
+}
+
+.block-info
+{
+    margin: 10px 0;
+}
+
+
+.schedule
+{
+    border: 1px solid green;
+    padding: 0 20px;
+}
+
+.schedule-block-info
+{
+    margin:25px 0;
+}
+
+.callback
+{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.callback-info
+{
+    color: #fff;
+	user-select: none; /* Убираем текстовое выделение */
+	text-decoration: none;	/* Убираем подчеркивание */
+	outline: none; /* Убираем контур вокруг ссылки */
+	background-color: #fa8e47; /* Цвет фона */
+	padding: 1em 2em; /* Отступ от текста до рамки */
+    border-radius:0.7em;
+	}
+	a:active {
+	background-color: #ee6206; /* Цвет кнопки при нажатии */
+	}
+	a:hover {
+	background-color: #f97f2e; /* Цвет кнопки при наведении курсора */
+
+}
